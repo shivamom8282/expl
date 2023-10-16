@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital@0;1&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Permanent+Marker&family=Poppins:ital@0;1&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar
+{
+   display: flex;
+   position: fixed;
+    background-color:grey;
+    width: 12%;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+   transition:  transform 0.3s ease-in;
+   justify-content: space-between;
+   
+}
+.sidebarGo
+{
+    transform: translate(-228px,0px);
+    position: absolute;
+   
+}
+
+.sidebar nav li
+{
+    list-style: none;
+    padding: 30px;
+    font-size: 20px;
+
+    
+}
+.sidebar nav 
+{
+    padding: 10px;
+   height: 100%;
+}
+.sidebar nav li a
+{
+   
+    display: flex;
+    position: absolute;
+    
+    text-decoration: none;
+    color: black;
+}
+.sidebar nav li a:hover
+{
+    text-decoration: none;
+    color: white;
+}
+.main
+{
+    /*background-color: yellow;*/
+    display: flex;
+    width: 90%;
+    padding: 20px;
+    flex-wrap: wrap;
+   
+}
+.container
+{
+    display:flex;
+    height: 100%;
+}
+.infocontainer
+{
+    display: flex;
+    margin:144px auto;
+    height:403px;
+    width:100%;
+    /*background-color: aqua;*/
+    margin-top: 64px;
+    justify-content: space-between;
+}
+.devinfo
+{
+    display: flex;
+    padding-left: 112px;
+ 
+
+   justify-content: center;
+    flex-direction: column;    
+}
+.hello
+{
+    font-size: 70px;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.name
+{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;;
+
+
+
+}
+.about
+{
+    font-size:20px;
+    font-family: font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;;
+
+
+}
+button
+{
+    padding: 10px;
+    border-radius: 26px;
+    width: 118px;
+    background-color: dodgerblue;
+    color: white;
+}
+button:hover
+{
+    background-color:white; 
+    color:  dodgerblue;
+    
+}
+
+.cvbutton
+{
+  
+
+}
+.contactme
+{
+
+}
+.buttons
+{
+    display: flex;
+    flex-direction: row;
+    margin-top:20px ;
+    justify-content: space-around;
+    margin-right: 241px;
+ 
+
+}
+
+@media (max-width:1164px)
+{
+  
+    .cross
+{
+    padding-left:98px ;
+   
+}
+.sidebar
+{
+   display: flex;
+   
+   position: fixed;
+    background-color:grey;
+    width: 24%;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+   transition:  transform 0.3s ease-in;
+   
+}
+
+   
+   
+}
+@media(max-width:789px)
+{
+    /*.hello
+{
+    font-size: 20px;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.name
+{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;;
+
+
+
+}
+.about
+{
+    font-size:10px;
+    font-family: font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;;
+
+
+}
+button
+{
+    padding: 10px;
+    border-radius: 26px;
+    width: 118px;
+    background-color: dodgerblue;
+    color: white;
+}*/
+}
+
+    .hello
+{
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.hamburger
+{
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    
+}
+.cross
+{
+    padding-left:107px ;
+   
+}
+.pic img
+{
+    padding-left: 10px;
+}
